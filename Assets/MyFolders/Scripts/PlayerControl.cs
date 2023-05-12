@@ -18,7 +18,7 @@ public class PlayerControl : MonoBehaviour
     private new Transform transform;
     private Rigidbody rb;  
 
-    int[] items = new int[16]; 
+    private int[] items = new int[16]; 
     private int coins = 100;
 
     private bool isInShop;

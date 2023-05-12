@@ -1872,16 +1872,16 @@ RectTransform:
   m_GameObject: {fileID: 357665542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1569455460}
   m_Father: {fileID: 792344856}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -412}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 51}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &357665544
@@ -3661,8 +3661,6 @@ MonoBehaviour:
   speed: 5
   rotationSpeed: 1
   anim: {fileID: 1784243484}
-  items: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  isInShop: 0
 --- !u!4 &682820091
 Transform:
   m_ObjectHideFlags: 0
@@ -4221,7 +4219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -4241,7 +4239,7 @@ Canvas:
   m_GameObject: {fileID: 792344852}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 963194227}
   m_PlaneDistance: 0.4
   m_PixelPerfect: 0
@@ -5196,7 +5194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buyScreen: {fileID: 1386005625}
-  itemButtons: []
   player: {fileID: 682820090}
   buttonsScreen: {fileID: 1249274153}
   coins: {fileID: 591336675}
@@ -6557,7 +6554,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00009628409}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7723640729711790601}
   - {fileID: 888683050}
@@ -6578,10 +6575,10 @@ RectTransform:
   m_Father: {fileID: 1386005626}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 49.99951, y: -0.00018310547}
-  m_SizeDelta: {x: 2436.0005, y: 1124.9999}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.9375992, y: 1.9273987}
+  m_SizeDelta: {x: 2277.544, y: 1251.4843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249274155
 MonoBehaviour:
@@ -7336,7 +7333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1386005626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7346,8 +7343,8 @@ RectTransform:
   m_GameObject: {fileID: 1386005625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1249274154}
   - {fileID: 823235077}
@@ -9802,10 +9799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f016ca8015fbd40aaee5c1f316681b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 682820090}
   buyScreen: {fileID: 1386005625}
   buttonsScreen: {fileID: 1249274153}
-  itemButtons: []
-  player: {fileID: 682820090}
   coins: {fileID: 591336675}
   changeItemsButton: {fileID: 823235076}
   openShopButton: {fileID: 357665542}
@@ -10186,16 +10182,16 @@ RectTransform:
   m_GameObject: {fileID: 1845254670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1641895421}
   m_Father: {fileID: 792344856}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -412}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 51.00003}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1845254672
